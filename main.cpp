@@ -27,6 +27,8 @@ typedef pair<int, int> Point;
 //if ((r1 < l2) || (r2 < l1)) then no intersection exits.
 //else l = max(l1, l2) and r = min(r1, r2)
 
+#define FORiN(N) for (int i = 0; i < N; i++)
+
 int main()
 {
 
