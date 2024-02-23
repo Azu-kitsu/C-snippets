@@ -36,25 +36,3 @@ int main()
 {
 
 }
-
-/*
-void bfs(int start) {
-    queue<int> q;
-    q.push(start);
-    visited[start] = true;
-
-    while (!q.empty()) {
-        int node = q.front();
-        q.pop();
-        cout << node << " ";
-
-        for (int neighbor : nodes[node]) {
-            if (!visited[neighbor]) {
-                q.push(neighbor);
-                visited[neighbor] = true;
-            }
-        }
-    }
-}
-
-*/
