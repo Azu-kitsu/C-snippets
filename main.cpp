@@ -7,6 +7,7 @@ using namespace std;
 #include <string>
 
 #include <algorithm>
+#include <cmath>
 #include <cstdlib> 
 #include <iostream>
 
@@ -20,6 +21,7 @@ void random(int lb, int ub, int amount)
 
 typedef long long ll;
 typedef vector<int> vInt;
+typedef vector<bool> vBool;
 typedef vector<vector<int>> vvInt;
 typedef vector<string> vString;
 typedef pair<int, int> Point;
